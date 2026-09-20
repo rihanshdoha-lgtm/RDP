@@ -6,7 +6,7 @@ on:
 jobs:
   secure-rdp:
     runs-on: windows-latest
-    timeout-lifetime:
+    timeout-lifetime
 
     steps:
       - name: Configure Core RDP Settings
